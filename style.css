@@ -1,0 +1,67 @@
+.navbar-brand{
+    font-size:200% ;
+    font-weight: bold;
+}
+
+ @media (min-width:768px) {
+    .navbar-toggler{
+   display:none ;}
+}
+
+/* {
+    background-color:#f6b319;
+} */
+.head{
+    z-index: -100px;
+color:#f6b319;
+}
+
+ /* @media (max-width:768px) {
+    .head{
+   display:none ;}
+}  */
+
+@media (max-width:767px) {
+    #mm{
+        display: none; 
+   }
+} 
+@media (min-width:225px){
+    #mm{
+        
+        background-color:khaki;
+        text-align: center;
+        font-size: 150%;
+        position:relative;
+        top: 74px; 
+}
+#link{ 
+   
+    text-decoration: none;
+    color:cornflowerblue;
+}
+}
+#menu-content{
+ text-decoration: none;
+    color: rebeccapurple;
+    font-weight: 700;
+}
+
+.row{
+
+    position: relative;
+    top: 110px;
+}
+#head{
+    text-align: center;
+    font-size: 120%;   
+}
+#text{
+    text-align:justify;
+}
+#checkin , #beaf , #sushi{
+    background-color: darkgray;
+    margin:15px auto 15px auto;
+    width:90%;
+    
+}
